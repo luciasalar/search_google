@@ -6,12 +6,12 @@ search_google/count_keywords.ipynb: rule-based classifer
 
 search_google/MLClassifer.ipynb: three ML classifiers, their evaluations and evaluation of rule-based classifer
 
-search_google/LabelResults/QuotesDetected_all.csv is the detected quotes and lyrics from 2000 posts from the rule based classifier. Score is the number of retrieved  document (webpage names) that contain the keywords. Cosinesim is the cosine similarity between the post and the retrieved webpage content. The labels show whether the post is a quote, suspect or notQuote. see search_google/count_keywords.ipynb for the description of the classifier.
+search_google/LabelResults/QuotesDetected_all.csv is the labels for quotes and lyrics (2000 posts) annotated by the rule based classifier. Score is the number of retrieved  documents (webpage names) that contain the keywords. Cosinesim is the cosine similarity between the post and the retrieved webpage content. The labels show whether the post is a quote, suspect or notQuote. see search_google/count_keywords.ipynb for the description of the classifier.
 
 
-search_google/features.csv: file shows how the features look like
+search_google/features.csv: this file shows what the features look like
 
-search_google/searchResults: hashed object for the text and features for the classifier (this is the object we used in most of the computation)
+search_google/searchResults: hashed object for the classifiers. This is the object we used in most of the computation.
 
 
 
