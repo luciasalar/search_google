@@ -2,7 +2,7 @@
 
 This package contains a rule-based classifer and three ML classifiers.
 The rule based classifer and the random forest classifer have similar f1 score, close to 98%.
-The rule based classifers has 100% in recalled but more false positives than the RF model. Recall of the RF model is around 80% but there are less false positives. If you want 100% recalled, use the rule based. You can also mannual annotate the rejected cases (labled as suspect) to maximze the accuracy. 
+The rule based classifers has 1 in recalled. RF model has 1 in precision. The RF model is more aggressive in identifying quotes and lyrics. You can also mannually annotate the rejected cases (labled as suspect) in the rule based classifier to maximze the accuracy. 
 
 
 search_google/googleLyrics.ipynb parse each post to Google API. Result returns webpage link, webpage name and webpage content
