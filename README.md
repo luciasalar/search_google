@@ -1,8 +1,13 @@
 # search_google
 
 This package contains a rule-based classifer and three ML classifiers.
-The rule based classifer and the random forest classifer have similar f1 score, close to 98%.
-The rule based classifers has 1 in recalled. RF model has 1 in precision. The RF model is more aggressive in identifying quotes and lyrics. You can also mannually annotate the rejected cases (labled as suspect) in the rule based classifier to maximze the accuracy. 
+
+Random Forest: RF gives the best result: f1: 0.94 (+/- 0.07)  
+5 fold cross validation model accuracy : [0.92454523 1.         0.91408451 0.90694789 0.97338482]
+precision: 0.8866666666666667 recall: 0.8095238095238095
+
+Rule based: F1: 0.98245614 Recall: 1.0 Precision: 0.8125
+
 
 
 search_google/googleLyrics.ipynb parse each post to Google API. Result returns webpage link, webpage name and webpage content
