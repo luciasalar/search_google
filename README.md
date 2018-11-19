@@ -3,16 +3,23 @@
 This package contains a rule-based classifer and three ML classifiers.
 
 Random Forest: RF gives the best result: f1: 0.94 (+/- 0.07)  
-5 fold cross validation model accuracy : [0.92454523 1.         0.91408451 0.90694789 0.97338482]
+5 fold cross validation model accuracy : [0.92454523 1.   0.91408451 0.90694789 0.97338482]
 precision: 0.8866666666666667 recall: 0.8095238095238095
 
 Rule based: F1: 0.98245614 Recall: 1.0 Precision: 0.8125
 
 
 
-search_google/googleLyrics.ipynb parse each post to Google API. Result returns webpage link, webpage name and webpage content
+search_google/googleLyrics.ipynb parse each post to Google API. Result returns webpage link, webpage name and webpage content. 
+
+search_results is an object contain the features for the classifier 
+
+
+
       
-search_google/count_keywords.ipynb: rule-based classifer
+search_google/count_keywords.ipynb: rule-based classifer. the features of the rule based classifer contain webpage names, webpage content, keyword counts: lyrics(lyric), quotes(quote) in the name
+
+
 
 search_google/MLClassifer.ipynb: three ML classifiers, their evaluations and evaluation of rule-based classifer
 
